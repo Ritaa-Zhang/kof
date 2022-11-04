@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kof</title>
+    <link rel="stylesheet" href="/static/css/base.css">
+    <script src="https://cdn.acwing.com/static/jquery/js/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+    <!-- 为了让js索引到渲染游戏的窗口 -->
+    <div id="kof"></div>
+    <!-- 可以放到js的map中，这样看起来比较高端 -->
+    <!-- <div class="kof-head">
+            <div class="kof-head-hp-0"></div>
+            <div class="kof-head-timer"></div>
+            <div class="kof-head-hp-1"></div>
+        </div> -->
+
+
+    <!-- 严格模式 -->
+    <!-- 将所需的代码通过import关键字引入到当前作用域。（可以引入多个文件） -->
+    <script type="module">
+        import { KOF } from '/static/js/base.js';
+
+        // 生成kof对象并传入id
+        let kof = new KOF('kof');
+    </script>
+</body>
+
+</html>
