@@ -11,22 +11,19 @@
 </head>
 
 <body>
-    <!-- 为了让js索引到渲染游戏的窗口 -->
+    <!-- Let JS index to the window that renders the game -->
     <div id="kof"></div>
-    <!-- 可以放到js的map中，这样看起来比较高端 -->
+    <!-- Put in game_map -->
     <!-- <div class="kof-head">
             <div class="kof-head-hp-0"></div>
             <div class="kof-head-timer"></div>
             <div class="kof-head-hp-1"></div>
         </div> -->
 
-
-    <!-- 严格模式 -->
-    <!-- 将所需的代码通过import关键字引入到当前作用域。（可以引入多个文件） -->
     <script type="module">
         import { KOF } from '/static/js/base.js';
 
-        // 生成kof对象并传入id
+        // Generate kof object and pass in id
         let kof = new KOF('kof');
     </script>
 </body>
