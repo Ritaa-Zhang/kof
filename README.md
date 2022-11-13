@@ -21,7 +21,7 @@ A horizontal fighting game based on CSS, jQuery and JavaScript ES6. Two players 
   | :-----------------: | :------: | :--------: |
   |        Jump         |    w     |  ArrowUp   |
   |      Go Right       |    d     | ArrowRight |
-  |       Go Left       |    s     | ArrowLeft  |
+  |       Go Left       |    a     | ArrowLeft  |
   |    Throw a Punch    |  Space   |   Enter    |
 - **Beat** your opponent before the countdown ends.
 
